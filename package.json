@@ -4,7 +4,8 @@
   "description": "A simple command-line interface (CLI) tool for performing basic CRUD file operations",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "node fileman",
+    "eslint": "./node_modules/.bin/eslint fileman.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
